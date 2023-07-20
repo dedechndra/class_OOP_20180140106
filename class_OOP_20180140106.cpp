@@ -44,3 +44,15 @@ void Matakuliah::TampilMK() {
 	cout << "Jumlah SKS : " << sks << endl;
 }
 
+int main()
+{
+	Mahasiswa mhs;
+	Matakuliah mk;
+
+	mhs.inputdata();
+	mhs.tampildata();
+
+	mk.InputMK();
+	mk.TampilMK();
+
+}
